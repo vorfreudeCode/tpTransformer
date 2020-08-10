@@ -16,7 +16,7 @@
         },
         "autoload": {
             "psr-4": {
-              "tpTransformer\\": "src/"
+              "syhcode\\tpTransformer\\": "src/"
             }
     }
 }
