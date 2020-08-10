@@ -1,0 +1,22 @@
+{
+    "name": "syhcode/tp-transformer",
+    "description": "thinkphp数据格式输出扩展",
+    "keywords": ["格式化输出","格式化","接口格式化","transformer", "transform","tp6", "tp", "thinkphp", "thinkphp6"],
+    "homepage": "https://github.com/vorfreudeCode/tpTransformer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "anananan",
+            "email": "857601608@qq.com"
+        }
+    ],
+    "require": {
+          "php": ">=5.5.9",
+          "league/fractal": "^0.19.2"
+        },
+        "autoload": {
+            "psr-4": {
+              "tpTransformer\\": "src/"
+            }
+    }
+}
